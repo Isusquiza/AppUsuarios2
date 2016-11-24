@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Screen Title</string>
+    <string name="nombre">Nombre completo</string>
+    <string name="telefono">Telefono</string>
+    <string name="email">Email</string>
+    <string name="descripcion">Descripción de contacto</string>
+    <string name="siguiente">SIGUIENTE</string>
+    <string name="confirmardatos">CONFIRMAR DATOS</string>
+    <string name="editardatos">EDITAR DATOS</string>
+    <string name="action_settings">Settings</string>
+    <string name="pick_date">Fecha de Nacimiento</string>
+    <string name="init_text">Datos de Nacimiento</string>
+</resources>

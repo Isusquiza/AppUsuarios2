@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_confirmar_datos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.eisusquiza.appusuarios.ConfirmarDatos">
+
+    <TextView
+        android:id="@+id/tvConfirmarDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/confirmardatos"/>
+
+
+    <TextView
+        android:id="@+id/tvNombre2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvConfirmarDatos"
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tvTelefono2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNombre2"
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tvEmail2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTelefono2"
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tvDescripcion2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvEmail2"
+        android:textSize="20dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/btnBotonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/editardatos"
+        android:theme="@style/MiBotonRaised"
+        android:layout_below="@id/tvDescripcion2"
+        android:background="@color/colorAccent"
+        />
+
+
+
+</LinearLayout>
